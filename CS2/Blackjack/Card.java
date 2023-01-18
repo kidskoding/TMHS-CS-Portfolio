@@ -7,29 +7,30 @@ public class Card {
         this.suit = suit;
     }
 
-    public Card(int value, String suit) {
-        switch(value) {
-            case 1 -> { }
-            case 2 -> { }
-            case 3 -> { }
-            case 4 -> { }
-            case 5 -> { }
-            case 6 -> { }
-            case 7 -> { }
-            case 8 -> { }
-            case 9 -> { }
-            case 10 -> { }
-            case 11 -> { }
-            case 12 -> { }
-            case 13 -> { }
+    public Card(int val, String s) {
+        switch(val) {
+            case 1 -> { value = Rank.ACE; }
+            case 2 -> { value = Rank.TWO; }
+            case 3 -> { value = Rank.THREE; }
+            case 4 -> { value = Rank.FOUR; }
+            case 5 -> { value = Rank.FIVE; }
+            case 6 -> { value = Rank.SIX; }
+            case 7 -> { value = Rank.SEVEN; }
+            case 8 -> { value = Rank.EIGHT; }
+            case 9 -> { value = Rank.NINE; }
+            case 10 -> { value = Rank.TEN; }
+            case 11 -> { value = Rank.JACK; }
+            case 12 -> { value = Rank.QUEEN; }
+            case 13 -> { value = Rank.KING; }
         }
     }
-    public String getValue() {
+    public Rank getValue() {
         return value;
     }
-    public String getSuit() {
+    public Suit getSuit() {
         return suit;
     }
+    
     @Override
     public String toString() {
         return value + " " + suit;
