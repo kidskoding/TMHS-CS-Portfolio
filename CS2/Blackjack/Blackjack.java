@@ -154,7 +154,7 @@ public class Blackjack {
             }
         }
     }
-    static boolean playAgain() {
+    public static boolean playAgain() {
         System.out.println("Play again?");
         Scanner in = new Scanner(System.in);
         String reply = in.nextLine();

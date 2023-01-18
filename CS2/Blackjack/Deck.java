@@ -21,7 +21,7 @@ public class Deck {
                 default:
                     s = Integer.toString(i);
             }
-            deck.push(new Card(s, "♠"));
+            deck.push(new Card(s, Suit.SPADES));
             deck.push(new Card(s, "♣"));
             deck.push(new Card(s, "♥"));
             deck.push(new Card(s, "♦"));
@@ -59,7 +59,6 @@ public class Deck {
     }
     @Override
     public String toString() {
-        int count = 0;
         String result = "";
         result += "[";
         for(Card card : deck) {
