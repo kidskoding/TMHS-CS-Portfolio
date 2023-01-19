@@ -30,6 +30,7 @@ public class Snake {
         private KeyHandler keyhandler;
         private Timer timer;
         private Integer score;
+
         public MyPanel() {
             rand = new Random();
             width = 1000;

@@ -1,3 +1,4 @@
+package Blackjack;
 import java.util.*;
 public class Blackjack {
     private static boolean playing;
@@ -158,6 +159,7 @@ public class Blackjack {
         System.out.println("Play again?");
         Scanner in = new Scanner(System.in);
         String reply = in.nextLine();
+        in.close();
         if(reply.equalsIgnoreCase("yes")) {
             return true;
         }
