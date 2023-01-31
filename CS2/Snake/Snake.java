@@ -1,4 +1,5 @@
 package Snake;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -6,10 +7,12 @@ import java.util.Random;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Iterator;
+
 public class Snake {
     public static void main(String[] args) {
         new Snake();
     }
+
     public Snake() {
         JFrame frame = new JFrame("Snake Game");
         JPanel panel = new MyPanel();
@@ -21,6 +24,7 @@ public class Snake {
         frame.setAlwaysOnTop(true);
         frame.setAlwaysOnTop(false);
     }
+    
     public class MyPanel extends JPanel implements ActionListener {
         private Random rand;
         private int width, height, scale;
@@ -30,6 +34,7 @@ public class Snake {
         private KeyHandler keyhandler;
         private Timer timer;
         private Integer score;
+
         public MyPanel() {
             rand = new Random();
             width = 1000;
@@ -50,6 +55,7 @@ public class Snake {
             score = 0;
             timer.start();
         }
+
         public void actionPerformed(ActionEvent e) {
             direction = keyhandler.getDirection();
             Cell snakeHead = snake.getFirst();
