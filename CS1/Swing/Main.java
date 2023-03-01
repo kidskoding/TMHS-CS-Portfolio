@@ -12,7 +12,7 @@ public class Main {
         panel = new JPanel();
         label = new JLabel();
         button = new JButton("Click on Me!");
-        setup();
+        this.setup();
     }
     public static void main(String[] args) {
         Main a = new Main();

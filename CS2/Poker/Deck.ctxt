@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Deck
+comment1.params=
+comment1.target=Deck()
+comment2.params=
+comment2.target=java.util.Stack\ getDeck()
+comment3.params=
+comment3.target=void\ riffleShuffle()
+comment4.params=
+comment4.target=void\ printDeck()
+numComments=5
