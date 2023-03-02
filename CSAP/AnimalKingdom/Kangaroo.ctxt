@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Kangaroo
+comment1.params=
+comment1.target=boolean\ canFly()
+comment2.params=
+comment2.target=java.lang.String\ move()
+comment3.params=
+comment3.target=java.lang.String\ habitat()
+comment4.params=
+comment4.target=java.lang.String\ eat()
+numComments=5

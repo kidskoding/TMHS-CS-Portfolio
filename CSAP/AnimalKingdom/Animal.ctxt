@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Animal
+comment1.params=
+comment1.target=java.lang.String\ eat()
+comment2.params=
+comment2.target=java.lang.String\ habitat()
+comment3.params=
+comment3.target=java.lang.String\ move()
+comment4.params=
+comment4.target=java.lang.String\ reproduce()
+comment5.params=
+comment5.target=boolean\ hasSpine()
+numComments=6

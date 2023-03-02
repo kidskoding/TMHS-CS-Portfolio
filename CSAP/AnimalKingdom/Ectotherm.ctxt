@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Ectotherm
+comment1.params=
+comment1.target=boolean\ canControlBodyTemp()
+comment2.params=
+comment2.target=java.lang.String\ livesOnLand()
+numComments=3
