@@ -1,4 +1,4 @@
-public class Dove extends Bird { 
+public class Dove extends Bird implements Herbivore { 
     @Override
     public boolean canFly() {
         return true;
@@ -14,5 +14,9 @@ public class Dove extends Bird {
     @Override
     public String eat() {
         return "I am eating spiders and sunflower seeds!";
+    }
+    @Override
+    public String eatPlants() {
+        return "Spiders and Sunflower seeds!";
     }
 }

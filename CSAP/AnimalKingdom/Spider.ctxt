@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Spider
+comment1.params=
+comment1.target=java.lang.String\ livesOnLand()
+comment2.params=
+comment2.target=java.lang.String\ reproduce()
+comment3.params=
+comment3.target=java.lang.String\ move()
+comment4.params=
+comment4.target=java.lang.String\ habitat()
+comment5.params=
+comment5.target=java.lang.String\ eat()
+comment6.params=
+comment6.target=java.lang.String\ eatMeat()
+numComments=7

@@ -1,4 +1,4 @@
-public class Kangaroo extends Mammal {
+public class Kangaroo extends Mammal implements Herbivore {
     @Override
     public boolean canFly() {
         return false;
@@ -14,5 +14,9 @@ public class Kangaroo extends Mammal {
     @Override
     public String eat() {
         return "I am eating grasses, shrubs, fruits, and flowering plants!";
+    }
+    @Override
+    public String eatPlants() {
+        return "Grasses, Shrubs, Fruits, Flowering Plans!";
     }
 }

@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.target=Raven
+comment0.target=Lion
 comment1.params=
 comment1.target=boolean\ canFly()
 comment2.params=
@@ -9,7 +9,5 @@ comment3.target=java.lang.String\ habitat()
 comment4.params=
 comment4.target=java.lang.String\ eat()
 comment5.params=
-comment5.target=java.lang.String\ eatPlants()
-comment6.params=
-comment6.target=java.lang.String\ eatMeat()
-numComments=7
+comment5.target=java.lang.String\ eatMeat()
+numComments=6
